@@ -117,8 +117,23 @@ function searchProducts () {
     renderProduct(filteredProducts)
 }
 
+function altSearch () { 
+    const mobilePlace = document.getElementById('searchInput');
+
+    if (window.innerWidth <= 1000) {
+        mobilePlace.placeholder = "Buscar produtos...";
+    }
+
+    else {
+        mobilePlace.placeholder = "Buscar produtos, marcas e muito mais..."; 
+    }
+
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     renderProduct(products)
 })
 
 document.getElementById('botaoBuscar').addEventListener('click', searchProducts)
+
+window.addEventListener('resize', altSearch)
