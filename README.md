@@ -1,6 +1,6 @@
 # 📦 Clone Interface Mercado Livre
 
-<img width="900" height="565" alt="Image" src="https://github.com/user-attachments/assets/b28e98b2-97ab-4d40-a0d8-ab8831e55ae3" />
+<img width="800"  alt="Image" src="https://github.com/user-attachments/assets/b28e98b2-97ab-4d40-a0d8-ab8831e55ae3" />
 
 
 > Uma réplica responsiva da interface principal do Mercado Livre, desenvolvida com CSS Grid e manipulação otimizada do DOM.
@@ -38,7 +38,5 @@
 ## 📸 Screenshots
 
 ### Desktop
-![Screenshot Desktop]([CAMINHO_DA_IMAGEM_DESKTOP])
 
-### Mobile (Menu com Scroll Horizontal)
-![Screenshot Mobile]([CAMINHO_DA_IMAGEM_MOBILE])
+<img width="700"  alt="Image" src="https://github.com/user-attachments/assets/f7407f0b-8403-4e03-8a2c-e28604935131" />
