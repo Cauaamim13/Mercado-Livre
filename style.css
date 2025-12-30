@@ -319,4 +319,7 @@ body {
     width: 110%;
 }
 
+#botaoBuscar {
+display: none;
+}
 }

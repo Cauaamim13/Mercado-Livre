@@ -130,6 +130,19 @@ function altSearch () {
 
 }
 
+const inputBusca = document.getElementById('searchInput');
+const btnBuscar = document.getElementById('botaoBuscar');
+
+inputBusca.addEventListener('keypress', function(event) {
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+
+        btnBuscar.click();
+    }
+
+})
+
 document.addEventListener('DOMContentLoaded', () => {
     renderProduct(products)
 })
